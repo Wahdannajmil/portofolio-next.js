@@ -15,9 +15,8 @@ export default function AboutMe() {
       <h3 className="text-2xl md:text-3xl py-2 dark:text-white">
         Frontend Web Developer
       </h3>
-      <p className="text-md py-5 leading-8 font-yekan text-gray-800 max-w-xl mx-auto dark:text-white">
-        من محمد صادق شیخ زاهدی، برنامه نویس فرانت و بک
-      </p>
+      <p className="text-2xl py-5 leading-8 font-yekan text-gray-800 max-w-xl mx-auto dark:text-white" >
+Informatics engineering Student in Dian Nuswantoro University      </p>
     </div>
   );
 }

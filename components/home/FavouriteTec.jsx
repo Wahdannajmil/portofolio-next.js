@@ -10,7 +10,8 @@ export default function FavouriteTec() {
     <section className="py-10">
       <div>
         <h3 className="text-3xl py-1 dark:text-white font-yekan">
-          تکنولوژی های مورد علاقه
+          Teknologi Favourite
+
         </h3>
       </div>
       <div className="flex gap-10 py-10 flex-row">

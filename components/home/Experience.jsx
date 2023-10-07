@@ -9,10 +9,10 @@ export default function Experience() {
     <section>
       <div>
         <h3 className="text-3xl py-1 font-yekan dark:text-white">
-          سابقه کاری من
+          My Experience
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800 font-yekan dark:text-gray-300">
-          من همیشه به دنبال کسب تجربه جدید و تکنولوژی ها ی متفاوت هستم :)
+          من همیشه به دنبال کسب تجربه جدید و تکنولوژی ها ی متفاوت هستم :
         </p>
       </div>
       <div className="lg:flex gap-10">

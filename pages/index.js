@@ -33,24 +33,19 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>M.Sadegh Sheikh Zahedi</title>
-        <meta name="description" content="M.Sadegh Sheikh Zahedi Portofolio" />
+        <title>Wahdan Najmil Fata</title>
+        <meta name="description" content="Wahdan Najmil Fata" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
-          {/* Header */}
           <Header setDarkMode={setDarkMode} darkMode={darkMode} />
-          {/* AboutMe */}
           <AboutMe />
-          {/* links */}
           {links}
         </section>
         <Portfolio />
-        {/* experince */}
         <Experience />
-        {/* FavouriteTec */}
         <FavouriteTec />
       </main>
     </div>
