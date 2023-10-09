@@ -126,7 +126,7 @@ export default function Portfolio() {
               <p className="text-2xl text-gray-400 mt-4 leading-relaxed">
                 سامانه ای برای عرضه و تقاضا منصفانه و اعتمادساز برای اعضا و هسته
                 های کارآفرینی اجتماعی و زمینه سازی برای تامین کالا جهت فعالیت
-                های تولیدی و خدماتی هسته های کارآفرینی اجتماعی
+                های تولیدی و خدماتی هسته های کارآفرینی اجتماعی m
               </p>
             </div>
             <div className="border-t pt-8 pb-8 text-center text-base text-gray-400 uppercase tracking-widest  group-hover:text-gray-600 bg-gray-50">

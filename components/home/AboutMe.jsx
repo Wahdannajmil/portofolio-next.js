@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../../public/img/me.jpg';
+import Me from '../../public/img/me.png';
 import Image from 'next/image';
 import info from '../../utils/info';
 
@@ -16,7 +16,7 @@ export default function AboutMe() {
         Frontend Web Developer
       </h3>
       <p className="text-2xl py-5 leading-8 font-yekan text-gray-800 max-w-xl mx-auto dark:text-white" >
-Informatics engineering Student in Dian Nuswantoro University      </p>
+      Informatics engineering Student in Dian Nuswantoro University      </p>
     </div>
   );
 }
