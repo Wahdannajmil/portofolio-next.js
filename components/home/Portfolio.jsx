@@ -1,162 +1,91 @@
 import Image from "next/image";
 import React from "react";
-import Mresalat from "../../public/img/mresalat.png";
-import Mbazar from "../../public/img/mbazar.png";
-import Mhesam from "../../public/img/mhesam.png";
-import MbazarMini from "../../public/img/mbazarMini.png";
-import MhesamMini from "../../public/img/mhesamMini.png";
-import MresalatMini from "../../public/img/mresalatMini.png";
+import OptimaBalita from "../../public/img/OptimaBalita.png"
+import GoogleSearch from "../../public/img/GoogleSearch.png";
+import Portofolio from "../../public/img/portofolio.png";
+import {FaArrowRight } from "react-icons/fa";
+
+function handleSectionClick(event) {
+  const githubLink = event.target.getAttribute("data-github-link");
+  if (githubLink) {
+    console.log("Mengarahkan ke: " + githubLink);
+    window.location.href = githubLink;
+  }
+}
+
+
 export default function Portfolio() {
   return (
     <section>
-      <h3 className="text-3xl py-1 font-yekan dark:text-white">پروژه های من</h3>
-      <div className="lg:flex gap-10">
+      <h3 className="text-left font-mono text-3xl py-1 dark:text-white">Project</h3>
+      <div className="lg:flex gap-5">
+        <section className="mx-auto container p-5 md:py-20 px-0 md:p-20 md:px-0 antialiased flex-1">
+          <section>
+            <article
+              className="mx-auto max-w-4xl shadow-xl bg-cover bg-center w-96 h-96 md:min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
+              style={{
+                backgroundImage: `url(${OptimaBalita.src})`,
+              }}>
+              <div className="bg-black bg-opacity-20 w-96 h-96 px-10 flex flex-wrap flex-col pt-20 hover:bg-opacity-75 transform duration-300">
+                <h1 className="text-white text-3xl mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300">
+                  Optima Balita
+                </h1>
+                <div className="w-16 h-2 bg-red-500 rounded-full mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300"></div>
+                <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
+                  OptimaBalita is an application that discusses stunting in toddlers. There are several features, namely articles, nutritional calculators and discussion forums
+                </p>
+                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                    <FaArrowRight className="text-xl ml-2" />
+                  </a>
+              </div>
+            </article>
+          </section>
+        </section>
         <section className="container mx-auto p-10 md:py-20 px-0 md:p-20 md:px-0 antialiased flex-1">
           <section>
             <article
-              className="mx-auto max-w-sm shadow-xl bg-cover bg-center min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
+              className="mx-auto max-w-4xl shadow-xl bg-cover bg-center w-96 h-96 md:min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
               style={{
-                backgroundImage: `url(${Mhesam.src})`,
-                width: "100%",
-                height: "100%",
+                backgroundImage: `url(${GoogleSearch.src})`,
               }}
             >
-              <div className="bg-black bg-opacity-20 min-h-150 px-10 flex flex-wrap flex-col pt-96 hover:bg-opacity-75 transform duration-300">
+              <div className="bg-black bg-opacity-20 w-96 h-96 px-10 flex flex-wrap flex-col pt-20 hover:bg-opacity-75 transform duration-300">
                 <h1 className="text-white text-3xl mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300">
-                  همیاری اجتماعی
+                  Google Search Cloning
                 </h1>
                 <div className="w-16 h-2 bg-red-500 rounded-full mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300"></div>
                 <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
-                  سامانه همیاری اجتماعی سامانه ای است برای متقاضیان عضویت در
-                  نهاد مردمی رسالت که با احراز هویت غیرحضوری روند ثبت نام اعضا
-                  را تسهیل بخشیده است.
+                  This website is a clone of Google Search and uses the API from Google developers
                 </p>
+                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                    <FaArrowRight className="text-xl ml-2" />
+                  </a>
               </div>
             </article>
           </section>
         </section>
         <section className="container mx-auto p-10 md:py-20 px-0 md:p-20 md:px-0 antialiased flex-1">
-          <section className=" ">
+          <section>
             <article
-              className="mx-auto max-w-sm shadow-xl bg-cover bg-center min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
+              className="mx-auto max-w-4xl shadow-xl bg-cover bg-center w-96 h-96 md:min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
               style={{
-                backgroundImage: `url(${Mbazar.src})`,
-                width: "100%",
-                height: "100%",
+                backgroundImage: `url(${Portofolio.src})`,
               }}
             >
-              <div className="bg-black bg-opacity-20 min-h-150 px-10 flex flex-wrap flex-col pt-96 hover:bg-opacity-75 transform duration-300">
+              <div className="bg-black bg-opacity-20 w-96 h-96 px-10 flex flex-wrap flex-col pt-20 hover:bg-opacity-75 transform duration-300">
                 <h1 className="text-white text-3xl mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300">
-                  ام بازار
+                  My Portofolio
                 </h1>
                 <div className="w-16 h-2 bg-red-500 rounded-full mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300"></div>
                 <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
-                  سامانه ای برای عرضه و تقاضا منصفانه و اعتمادساز برای اعضا و
-                  هسته های کارآفرینی اجتماعی و زمینه سازی برای تامین کالا جهت
-                  فعالیت های تولیدی و خدماتی هسته های کارآفرینی اجتماعی
+                  This is my portofolio website and this website build with next.js framework
                 </p>
+                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                    <FaArrowRight className="text-xl ml-2" />
+                  </a>
               </div>
             </article>
           </section>
-        </section>
-        <section className="container mx-auto p-10 md:py-20 px-0 md:p-20 md:px-0 antialiased flex-1">
-          <section className=" ">
-            <article
-              className="mx-auto max-w-sm shadow-xl bg-cover bg-center min-h-150 transform duration-500 hover:-translate-y-2 cursor-pointer group"
-              style={{
-                backgroundImage: `url(${Mresalat.src})`,
-                width: "100%",
-                height: "100%",
-              }}
-            >
-              <div className="bg-black bg-opacity-20 min-h-150 px-10 flex flex-wrap flex-col pt-96 hover:bg-opacity-75 transform duration-300">
-                <h1 className="text-white text-3xl mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300">
-                  ام حسام
-                </h1>
-                <div className="w-16 h-2 bg-red-500 rounded-full mb-5 transform translate-y-20 group-hover:translate-y-0 duration-300"></div>
-                <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
-                  سامانه ای است برای پیگیری و رصد و تسهیل ارتباطات و مراودات
-                  مالی اعضا با یکدیگر.
-                </p>
-              </div>
-            </article>
-          </section>
-        </section>
-      </div>
-      <div className=" lg:flex  gap-10">
-        <section className=" container mx-auto transform duration-500 flex-1">
-          <article className="shadow-lg mx-auto relative max-w-md group cursor-pointer">
-            <div className="overflow-hidden">
-              <Image
-                src={MresalatMini}
-                width={100}
-                height={100}
-                className="mx-auto w-full h-auto transform hover:scale-110 duration-200"
-              />
-            </div>
-            <div className="p-7 my-auto pb-12 ">
-              <h1 className="text-4xl font-semibold text-gray-800 mt-4">
-                همیاری اجتماعی
-              </h1>
-              <p className="text-2xl text-gray-400 mt-4 leading-relaxed">
-                سامانه همیاری اجتماعی سامانه ای است برای متقاضیان عضویت در نهاد
-                مردمی رسالت که با احراز هویت غیرحضوری روند ثبت نام اعضا را تسهیل
-                بخشیده است.
-              </p>
-            </div>
-            <div className="border-t pt-8 pb-8 text-center text-base text-gray-400 uppercase tracking-widest  group-hover:text-gray-600 bg-gray-50">
-              بیشتر
-            </div>
-          </article>
-        </section>
-        <section className=" lg:flex container mx-auto transform duration-500 flex-1">
-          <article className="shadow-lg mx-auto relative max-w-md group cursor-pointer">
-            <div className="overflow-hidden">
-              <Image
-                src={MbazarMini}
-                width={100}
-                height={100}
-                className="mx-auto w-full h-auto transform hover:scale-110 duration-200"
-              />
-            </div>
-            <div className="p-7 my-auto pb-12 ">
-              <h1 className="text-4xl font-semibold text-gray-800 mt-4">
-                ام بازار
-              </h1>
-              <p className="text-2xl text-gray-400 mt-4 leading-relaxed">
-                سامانه ای برای عرضه و تقاضا منصفانه و اعتمادساز برای اعضا و هسته
-                های کارآفرینی اجتماعی و زمینه سازی برای تامین کالا جهت فعالیت
-                های تولیدی و خدماتی هسته های کارآفرینی اجتماعی m
-              </p>
-            </div>
-            <div className="border-t pt-8 pb-8 text-center text-base text-gray-400 uppercase tracking-widest  group-hover:text-gray-600 bg-gray-50">
-              بیشتر
-            </div>
-          </article>
-        </section>
-        <section className="container mx-auto transform duration-500 flex-1">
-          <article className="shadow-lg mx-auto relative max-w-md group cursor-pointer">
-            <div className="overflow-hidden">
-              <Image
-                src={MhesamMini}
-                width={100}
-                height={100}
-                className="mx-auto w-full h-auto transform hover:scale-110 duration-200"
-              />
-            </div>
-            <div className="p-7 my-auto pb-12 ">
-              <h1 className="text-4xl font-semibold text-gray-800 mt-4">
-                ام حسام
-              </h1>
-              <p className="text-2xl text-gray-400 mt-4 leading-relaxed">
-                سامانه ای است برای پیگیری و رصد و تسهیل ارتباطات و مراودات مالی
-                اعضا با یکدیگر.
-              </p>
-            </div>
-            <div className="border-t pt-8 pb-8 text-center text-base text-gray-400 uppercase tracking-widest  group-hover:text-gray-600 bg-gray-50">
-              بیشتر
-            </div>
-          </article>
         </section>
       </div>
     </section>

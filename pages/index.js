@@ -17,9 +17,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const links = (
     <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-      {/* <a href="https://twitter.com/sheikhoo_iran">
-        <AiFill />
-      </a> */}
+
       <a href="https://www.linkedin.com/in/wahdan-najmil-fata-949aa825a/">
         <AiFillLinkedin />
       </a>
