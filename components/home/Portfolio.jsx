@@ -34,7 +34,7 @@ export default function Portfolio() {
                 <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
                   OptimaBalita is an application that discusses stunting in toddlers. There are several features, namely articles, nutritional calculators and discussion forums
                 </p>
-                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                  <a href="https://stunting-center.netlify.app/" className="text-white hover:underline">
                     <FaArrowRight className="text-xl ml-2" />
                   </a>
               </div>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                 <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
                   This website is a clone of Google Search and uses the API from Google developers
                 </p>
-                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                  <a href="https://google-clone-wahdan.netlify.app/" className="text-white hover:underline">
                     <FaArrowRight className="text-xl ml-2" />
                   </a>
               </div>
@@ -80,7 +80,7 @@ export default function Portfolio() {
                 <p className="opacity-0 text-white text-xl group-hover:opacity-80 transform duration-500 mb-5">
                   This is my portofolio website and this website build with next.js framework
                 </p>
-                  <a href="https://github.com/Wahdannajmil" className="text-white hover:underline">
+                  <a href="https://myporto-wahdan-nf.netlify.app/" className="text-white hover:underline">
                     <FaArrowRight className="text-xl ml-2" />
                   </a>
               </div>
