@@ -12,6 +12,7 @@ import Experience from "../components/home/Experience";
 import FavouriteTec from "../components/home/FavouriteTec";
 import Portfolio from "../components/home/Portfolio";
 import Header from "../components/Header";
+import { Sertification } from "../components/home/Sertification";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,6 +45,7 @@ export default function Home() {
           {links}
         </section>
         <Portfolio />
+        <Sertification/>
         <Experience />
         <FavouriteTec />
       </main>

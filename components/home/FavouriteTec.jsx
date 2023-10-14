@@ -16,8 +16,8 @@ export default function FavouriteTec() {
   return (
     <section className="py-10">
       <div>
-        <h3 className="text-left text-3xl py-1 dark:text-white font-yekan">
-          Teknologi Favourite
+        <h3 className="text-left text-3xl py-1 dark:text-white font-mono">
+          Favorite Technology
 
         </h3>
       </div>
