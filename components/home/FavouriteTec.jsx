@@ -14,14 +14,13 @@ import Reactjs from '../../public/img/react.png';
 
 export default function FavouriteTec() {
   return (
-    <section className="py-10">
+    <section className="py-10 ">
       <div>
-        <h3 className="text-left text-3xl py-1 dark:text-white font-mono">
-          Favorite Technology
-
+        <h3 className="text-left text-3xl py-5 dark:text-white font-mono ">
+          Skills
         </h3>
       </div>
-      <div className="flex gap-10 py-10 flex-row">
+      <div className="flex gap-10 py-10 flex-row bg-white rounded-xl">
         <div className="basis-1/6 flex-1 ">
           <Image
             className="rounded-lg object-cover"

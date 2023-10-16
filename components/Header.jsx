@@ -2,13 +2,17 @@ import React from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 export default function Header({ setDarkMode, darkMode }) {
+  const handleDarkModeToggle = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <nav className="py-10 mb-12 flex justify-between">
-      <h1 className="text-xl font-mono dark:text-white"> WnF</h1>
+    <nav className="py-10 mb-12 flex justify-between ">
+      <h1 className="text-xl font-mono dark:text-white">WnF</h1>
       <ul className="flex items-center">
         <li>
           <BsFillMoonStarsFill
-            onClick={() => setDarkMode(!darkMode)}
+            onClick={handleDarkModeToggle}
             className="cursor-pointer text-2xl dark:text-white"
           />
         </li>
