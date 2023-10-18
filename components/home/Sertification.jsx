@@ -3,26 +3,40 @@ import React from "react";
 export const Sertification = () => {
     const posts = [
         {
-            title: "React Tailwind Card with Grid 1",
-            img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+            title: "Frontend Web Development",
+            img: "https://i.postimg.cc/zBpQ4RwB/sr-skilvul.png",
             content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
             link: "https://udemy-certificate.s3.amazonaws.com/image/UC-8d489c10-75f6-4e2b-91af-9821846416d2.jpg",
         },
         {
-            title: "React Tailwind Card with Grid 2",
-            img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
+            title: "Reactjs",
+            img: "https://i.postimg.cc/TPVFqspn/sr-codingstudio.png",
             content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
             link : "https://drive.google.com/file/d/1ZOyYtUVXpUxJv0Lxyv2fZm5Qxgm4qWjy/view"
         },
         {
-            title: "React Tailwind Card with Grid 3",
-            img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+            title: "Nextjs & Reactjs",
+            img: "https://i.postimg.cc/mDTqdSHJ/sr-udemy.png",
+            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+            link : "https://drive.google.com/file/d/1ZOyYtUVXpUxJv0Lxyv2fZm5Qxgm4qWjy/view"
         },
         {
-            title: "React Tailwind Card with Grid 4",
-            img: "https://cdn.pixabay.com/photo/2019/12/17/14/43/christmas-4701783__340.png",
-            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content"
+            title: "Ai-Webinar",
+            img: "https://i.postimg.cc/6QJFZK59/sr-udinus.png",
+            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+            link : "https://drive.google.com/file/d/1ZOyYtUVXpUxJv0Lxyv2fZm5Qxgm4qWjy/view"
+        },
+        {
+            title: "Figma",
+            img: "https://i.postimg.cc/9QfrvtS3/Skilvul-Skil-Badge-Skilvul-Product-Tema-Kesehatan.png",
+            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+            link : "https://drive.google.com/file/d/1ZOyYtUVXpUxJv0Lxyv2fZm5Qxgm4qWjy/view"
+        },
+        {
+            title: "Javascript",
+            img: "https://i.postimg.cc/N0S989p3/Skilvul-Skil-Badge-Java-Script-Dasar-3.png",
+            content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+            link : "https://drive.google.com/file/d/1ZOyYtUVXpUxJv0Lxyv2fZm5Qxgm4qWjy/view"
         },
     ];
     return (
@@ -37,10 +51,10 @@ export const Sertification = () => {
                             alt="image"
                         />
                         <div className="p-4">
-                            <h4 className="text-xl font-semibold text-blue-600 dark:text-red-600">
+                            <h4 className="text-left text-xl font-semibold text-blue-600 dark:text-red-600">
                                 {item.title} 
                             </h4>
-                            <p className="mb-2 leading-normal dark:text-white">
+                            <p className="mb-2 leading-normal dark:text-white text-left">
                                 {item.content}
                             </p>
                             {item.link && (
@@ -48,9 +62,9 @@ export const Sertification = () => {
                                     href={item.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow"
+                                    className="px-4 py-2 text-sm text-blue-100 bg-blue-600 rounded shadow"
                                 >
-                                    Read more
+                                    view
                                 </a>
                             )}
                         </div>

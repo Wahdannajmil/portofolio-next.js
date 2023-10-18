@@ -4,7 +4,7 @@ import GoogleSearch from "../../public/img/GoogleSearch.png";
 import Portofolio from "../../public/img/portofolio.png";
 import Netflix from "../../public/img/netflix-clone.png";
 import { FaArrowRight } from "react-icons/fa";
-import Ecom from "../../public/img/e-com.png"
+import Ecom from "../../public/img/simplecom.png"
 
 export default function Portfolio() {
   return (
@@ -23,7 +23,7 @@ export default function Portfolio() {
           <div className="flex flex-grow"></div> 
           <div className="flex justify-start pb-5">
             <a
-              href="https://stunting-center.netlify.app/"
+              href="https://google-clone-wahdan.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2 py-2 text-sm text-blue-100 bg-red-500 rounded shadow"
@@ -121,7 +121,7 @@ export default function Portfolio() {
             <div className="flex flex-grow"></div>
             <div className="flex justify-start pb-5">
               <a
-                href="https://google-clone-wahdan.netlify.app/"
+                href="https://simple-commerce-wahdan.netlify.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-2 py-2 text-sm text-blue-100 bg-red-500 rounded shadow"
