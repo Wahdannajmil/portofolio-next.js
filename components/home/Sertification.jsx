@@ -8,6 +8,7 @@ export const Sertification = () => {
             content: "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
             link: "https://udemy-certificate.s3.amazonaws.com/image/UC-8d489c10-75f6-4e2b-91af-9821846416d2.jpg",
         },
+
         {
             title: "Reactjs",
             img: "https://i.postimg.cc/TPVFqspn/sr-codingstudio.png",
